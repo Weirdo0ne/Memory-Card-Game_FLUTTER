@@ -1,0 +1,50 @@
+name: concentration
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.1.0+2
+
+environment:
+  sdk:  ">=2.15.0-116.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  animated_background: ^2.0.0
+  provider: ^6.0.2
+  shared_preferences: ^2.0.13
+  path_provider: ^2.0.8
+  auto_size_text: ^3.0.0
+  flutter_svg: ^2.0.5
+  package_info_plus: ^1.0.3
+  url_launcher: ^6.0.13
+  page_transition: ^2.0.5
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Nicolast
+      fonts:
+        - asset: fonts/Nicolast.ttf
+        
+    - family: Dimsum Week
+      fonts:
+        - asset: fonts/Dimsum Week.ttf
+      
+
+  assets:
+    - assets/images/
+    - assets/images/background/
+    - assets/images/olive/
+    - assets/images/retro/
+    - assets/images/concentration/
